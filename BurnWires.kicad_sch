@@ -3249,7 +3249,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "1k"
 			(at 179.324 102.616 0)
 			(effects
 				(font
@@ -3789,7 +3789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 269.24 71.12 0)
 			(effects
 				(font
@@ -3920,7 +3920,7 @@
 				)
 			)
 		)
-		(property "Value" "500mA"
+		(property "Value" "2A"
 			(at 153.67 91.44 0)
 			(effects
 				(font
@@ -4129,7 +4129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 269.24 128.27 0)
 			(effects
 				(font
@@ -4299,7 +4299,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2A"
+		(property "Value" "5A"
 			(at 78.74 54.6099 90)
 			(effects
 				(font
@@ -4522,7 +4522,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "1k"
 			(at 179.324 74.676 0)
 			(effects
 				(font
@@ -4675,7 +4675,7 @@
 				)
 			)
 		)
-		(property "Value" "500mA"
+		(property "Value" "2A"
 			(at 154.94 120.65 0)
 			(effects
 				(font
@@ -4743,7 +4743,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "1k"
 			(at 179.324 131.826 0)
 			(effects
 				(font
@@ -4882,7 +4882,7 @@
 				)
 			)
 		)
-		(property "Value" "500mA"
+		(property "Value" "2A"
 			(at 152.4 63.5 0)
 			(effects
 				(font
@@ -5027,7 +5027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 269.24 99.06 0)
 			(effects
 				(font
