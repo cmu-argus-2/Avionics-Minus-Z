@@ -1497,7 +1497,6 @@
 	(hierarchical_label "DEVICE"
 		(shape bidirectional)
 		(at 149.86 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1509,7 +1508,6 @@
 	(hierarchical_label "VDD"
 		(shape bidirectional)
 		(at 140.97 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1521,7 +1519,6 @@
 	(hierarchical_label "VDD"
 		(shape bidirectional)
 		(at 151.13 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1533,7 +1530,6 @@
 	(hierarchical_label "DEVICE"
 		(shape bidirectional)
 		(at 158.75 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1545,7 +1541,6 @@
 	(hierarchical_label "BUS"
 		(shape bidirectional)
 		(at 139.7 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1557,7 +1552,6 @@
 	(hierarchical_label "BUS"
 		(shape bidirectional)
 		(at 142.24 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

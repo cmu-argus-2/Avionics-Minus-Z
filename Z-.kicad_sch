@@ -3059,7 +3059,6 @@
 	)
 	(label "COIL_DRIVER_EN_OR_MAIN_3V3"
 		(at 58.42 167.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3070,7 +3069,6 @@
 	)
 	(label "PERI_3V3_OR_GND"
 		(at 68.58 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3081,7 +3079,6 @@
 	)
 	(label "coil"
 		(at 243.84 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3092,7 +3089,6 @@
 	)
 	(label "PERI_3V3_OR_GND"
 		(at 121.92 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3103,7 +3099,6 @@
 	)
 	(label "COIL_DRIVER_EN_OR_MAIN_3V3"
 		(at 68.58 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3114,7 +3109,6 @@
 	)
 	(label "coil"
 		(at 243.84 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
