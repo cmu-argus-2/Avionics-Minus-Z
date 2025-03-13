@@ -4409,7 +4409,7 @@
 	)
 	(global_label "BURN_EN1"
 		(shape bidirectional)
-		(at 36.83 125.73 180)
+		(at 36.83 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4418,7 +4418,7 @@
 		)
 		(uuid "31833810-92ef-4fa4-868f-42bac711c896")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.83 125.73 0)
+			(at 36.83 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,7 +4553,7 @@
 	)
 	(global_label "BURN_EN2"
 		(shape bidirectional)
-		(at 36.83 123.19 180)
+		(at 36.83 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4562,7 +4562,7 @@
 		)
 		(uuid "d7e75375-5085-4d63-a28c-52324fdfc431")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.83 123.19 0)
+			(at 36.83 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
