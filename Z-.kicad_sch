@@ -3107,6 +3107,16 @@
 		)
 		(uuid "9b5b6f6c-0d98-4c3b-a8f9-98ea1caaad6c")
 	)
+	(label "GPS"
+		(at 50.8 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6b03154-364f-4600-bdd8-a092d2eb1277")
+	)
 	(label "coil"
 		(at 243.84 148.59 0)
 		(effects

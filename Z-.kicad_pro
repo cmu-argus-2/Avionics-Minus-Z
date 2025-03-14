@@ -116,7 +116,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.14732,
+        "min_clearance": 0.1524,
         "min_connection": 0.1524,
         "min_copper_edge_clearance": 0.37592,
         "min_hole_clearance": 0.254,
@@ -466,6 +466,23 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.6096,
+        "microvia_drill": 0.3048,
+        "name": "GPS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.335001,
         "via_diameter": 0.508,
         "via_drill": 0.254,
         "wire_width": 6
