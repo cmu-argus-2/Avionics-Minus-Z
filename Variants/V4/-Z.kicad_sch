@@ -1,0 +1,1359 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "446ceff1-46b8-4829-b15a-92d0d6c980a6")
+	(paper "A4")
+	(title_block
+		(title "Argus -Z Panel")
+		(date "2025-06-23")
+		(rev "Rev 5.0")
+		(company "N. Khera")
+		(comment 1 "V. Rajesh")
+		(comment 2 "A. Sahay")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 190.5 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00177273-3f32-41a0-b9d3-06ed373a1487")
+	)
+	(junction
+		(at 190.5 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a42e601-ffbd-412e-bc35-7d5dc9392131")
+	)
+	(junction
+		(at 190.5 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "680f83e7-6da8-4d4b-b6c5-d7c742514eb0")
+	)
+	(junction
+		(at 190.5 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "887d7985-e517-4359-a8a4-e0736fe1e32f")
+	)
+	(junction
+		(at 190.5 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5e91c32-14ae-41d3-a990-71908bf901ad")
+	)
+	(junction
+		(at 190.5 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8474828-6bf4-4dab-8243-aae6d3798459")
+	)
+	(wire
+		(pts
+			(xy 190.5 52.07) (xy 181.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0315884b-7eef-4d3f-9de7-de32829f6643")
+	)
+	(wire
+		(pts
+			(xy 190.5 138.43) (xy 190.5 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2fdbac-0c5d-4c5e-8590-b30a6b3d4faf")
+	)
+	(wire
+		(pts
+			(xy 181.61 72.39) (xy 190.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6fae23-05e1-4f66-9d8a-78307c9f31e5")
+	)
+	(wire
+		(pts
+			(xy 190.5 82.55) (xy 190.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3566fcfe-3309-4fe8-9b32-4876158b8b1e")
+	)
+	(wire
+		(pts
+			(xy 181.61 118.11) (xy 190.5 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376952cc-4913-47c9-9765-1f91185ee9a1")
+	)
+	(wire
+		(pts
+			(xy 190.5 128.27) (xy 190.5 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d6ec58-9074-4d09-9dec-db6796604659")
+	)
+	(wire
+		(pts
+			(xy 181.61 128.27) (xy 190.5 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "787aa5b1-cc3c-4c39-b9ce-393d79773724")
+	)
+	(wire
+		(pts
+			(xy 181.61 62.23) (xy 190.5 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7afd18-d31f-41e0-ae75-509bd13d480f")
+	)
+	(wire
+		(pts
+			(xy 190.5 72.39) (xy 190.5 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807c89de-4deb-4fc3-bbc2-0540a4cb8b42")
+	)
+	(wire
+		(pts
+			(xy 190.5 118.11) (xy 190.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaeaf025-aa8c-458d-ba73-ac4d011d3f4e")
+	)
+	(wire
+		(pts
+			(xy 190.5 138.43) (xy 190.5 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef550d5-3073-422b-8245-4fc63495ba7c")
+	)
+	(wire
+		(pts
+			(xy 190.5 107.95) (xy 181.61 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9459182-a081-4d74-825d-4231d1abddc7")
+	)
+	(wire
+		(pts
+			(xy 190.5 82.55) (xy 190.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6da66a5-11d2-432b-aa25-06894eeb108b")
+	)
+	(wire
+		(pts
+			(xy 181.61 138.43) (xy 190.5 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef02e258-7b3e-4076-b1b1-85141a51ed7d")
+	)
+	(wire
+		(pts
+			(xy 190.5 62.23) (xy 190.5 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa61cb9b-0373-4b41-8476-937846e84844")
+	)
+	(wire
+		(pts
+			(xy 181.61 82.55) (xy 190.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce0e9e8-633e-4f1f-9e40-d4c530d6e2d1")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 179.07 62.23 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "262856cd-72e5-4aae-ad4e-0c91ded35445")
+		(property "Reference" "H2"
+			(at 177.8 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 177.8 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c26991f-9c61-4450-9ade-804bdf6df685")
+		)
+		(instances
+			(project "Z-"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 179.07 72.39 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37691487-3899-4954-a1c1-e42aae02429f")
+		(property "Reference" "H3"
+			(at 177.8 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 177.8 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 179.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 179.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 179.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2413687e-9ae5-4d51-bf47-f94683572225")
+		)
+		(instances
+			(project "Z-"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a476ae9-4b63-4b62-8bec-6955e578b2f2")
+		(property "Reference" "#PWR05"
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f5862a7-44cf-4789-b42e-dd8a5c9e8773")
+		)
+		(instances
+			(project "Z-"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bcc1203-27e8-40d0-b171-a7ccf9cb7737")
+		(property "Reference" "#PWR04"
+			(at 190.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d3f382f-90f2-4c99-8571-0e6a5a61dd2a")
+		)
+		(instances
+			(project "Z-"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 179.07 138.43 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65e11765-4927-4c92-8c64-d34e356ae1d3")
+		(property "Reference" "H8"
+			(at 177.8 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 177.8 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b10ad71-42c1-42d4-bd98-41c97c9da282")
+		)
+		(instances
+			(project "Z-"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 179.07 52.07 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d18211e-9a99-4f32-b405-72845216cadd")
+		(property "Reference" "H1"
+			(at 177.8 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 177.8 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 179.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 179.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 179.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bc4486d-5ad9-4744-8395-3c8217a36477")
+		)
+		(instances
+			(project "Z-"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 179.07 82.55 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99835723-ed07-4a2b-9a2a-3e4e6eddc998")
+		(property "Reference" "H4"
+			(at 177.8 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 177.8 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f765e09-a712-47b7-86be-b78d4e306df1")
+		)
+		(instances
+			(project "Z-"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 179.07 128.27 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbca6afd-4dc0-4d6b-81e0-2a5df3461d05")
+		(property "Reference" "H7"
+			(at 177.8 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 177.8 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a0e3714-0476-473c-aab2-a870b1ddd0ef")
+		)
+		(instances
+			(project "Z-"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 179.07 107.95 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d704d1a4-b291-4762-bc77-827596e76d48")
+		(property "Reference" "H5"
+			(at 177.8 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 177.8 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59d941f3-ba9e-4b07-944d-7c1f1e344f00")
+		)
+		(instances
+			(project "Z-"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 179.07 118.11 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbea0adc-5708-4dc0-a49b-06f1215774a4")
+		(property "Reference" "H6"
+			(at 177.8 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 177.8 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "135f72b1-26ac-4bd5-8408-9741c4c0cc03")
+		)
+		(instances
+			(project "Z-"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 120.65)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6237e191-5cb9-46cd-8f66-fc74e2e353a6")
+		(property "Sheetname" "GPIO Expander"
+			(at 101.6 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPIOExpander.kicad_sch"
+			(at 101.6 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "-Z"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 36.83)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f683887-76b1-45d9-9e39-3661db02b6d9")
+		(property "Sheetname" "Light Sensor"
+			(at 101.6 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LightSensor.kicad_sch"
+			(at 101.6 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "-Z"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 92.71)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a90023fb-0fab-4c1a-9223-dcb77ef77cb2")
+		(property "Sheetname" "Coil Driver"
+			(at 101.6 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CoilDriver.kicad_sch"
+			(at 101.6 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "-Z"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 64.77)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e87a29de-7d32-474a-998c-af2c5508d1e2")
+		(property "Sheetname" "Burn Wires"
+			(at 101.6 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BurnWires.kicad_sch"
+			(at 101.6 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "-Z"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 148.59)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc2a0310-ccff-4451-80b6-dedebcf7c558")
+		(property "Sheetname" "Interfaces"
+			(at 101.6 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interfaces.kicad_sch"
+			(at 101.6 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "-Z"
+				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

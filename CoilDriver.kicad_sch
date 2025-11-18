@@ -4251,7 +4251,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "2k7"
 			(at 231.14 136.906 0)
 			(effects
 				(font
@@ -5064,7 +5064,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1M"
 			(at 231.14 147.066 0)
 			(effects
 				(font
