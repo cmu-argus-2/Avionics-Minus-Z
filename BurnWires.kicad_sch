@@ -5264,7 +5264,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "330R"
 			(at 43.18 113.538 90)
 			(effects
 				(font
@@ -6205,7 +6205,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "0R"
 			(at 62.23 131.826 0)
 			(effects
 				(font
