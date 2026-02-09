@@ -523,7 +523,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./Gerbers/-Z/",
+      "plot": "../Gerbers/-Z/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "-Z.step",
