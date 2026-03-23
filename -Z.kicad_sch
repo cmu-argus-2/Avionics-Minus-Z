@@ -484,7 +484,7 @@
 			(uuid "2c26991f-9c61-4450-9ade-804bdf6df685")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
 					(reference "H2")
 					(unit 1)
@@ -558,7 +558,7 @@
 			(uuid "2413687e-9ae5-4d51-bf47-f94683572225")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
 					(reference "H3")
 					(unit 1)
@@ -623,7 +623,7 @@
 			(uuid "3f5862a7-44cf-4789-b42e-dd8a5c9e8773")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
 					(reference "#PWR05")
 					(unit 1)
@@ -688,7 +688,7 @@
 			(uuid "4d3f382f-90f2-4c99-8571-0e6a5a61dd2a")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
 					(reference "#PWR04")
 					(unit 1)
@@ -762,7 +762,7 @@
 			(uuid "3b10ad71-42c1-42d4-bd98-41c97c9da282")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
 					(reference "H8")
 					(unit 1)
@@ -836,7 +836,7 @@
 			(uuid "8bc4486d-5ad9-4744-8395-3c8217a36477")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
 					(reference "H1")
 					(unit 1)
@@ -910,7 +910,7 @@
 			(uuid "8f765e09-a712-47b7-86be-b78d4e306df1")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
 					(reference "H4")
 					(unit 1)
@@ -984,7 +984,7 @@
 			(uuid "2a0e3714-0476-473c-aab2-a870b1ddd0ef")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
 					(reference "H7")
 					(unit 1)
@@ -1058,7 +1058,7 @@
 			(uuid "59d941f3-ba9e-4b07-944d-7c1f1e344f00")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
 					(reference "H5")
 					(unit 1)
@@ -1132,7 +1132,7 @@
 			(uuid "135f72b1-26ac-4bd5-8408-9741c4c0cc03")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6"
 					(reference "H6")
 					(unit 1)

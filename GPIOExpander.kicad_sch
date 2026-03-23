@@ -1631,7 +1631,7 @@
 			(uuid "b04e1ec2-336c-4a84-982d-979e92a64015")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/6237e191-5cb9-46cd-8f66-fc74e2e353a6"
 					(reference "U4")
 					(unit 1)
@@ -1696,7 +1696,7 @@
 			(uuid "ed8ccc62-544a-48b9-97b9-168de41a47db")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/6237e191-5cb9-46cd-8f66-fc74e2e353a6"
 					(reference "#PWR020")
 					(unit 1)
@@ -1766,7 +1766,7 @@
 			(uuid "134c767c-a20b-4266-831e-9fb93f2ef7b3")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/6237e191-5cb9-46cd-8f66-fc74e2e353a6"
 					(reference "R64")
 					(unit 1)
@@ -1835,7 +1835,7 @@
 			(uuid "30093540-9610-4d3f-930b-248d9d190cc1")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/6237e191-5cb9-46cd-8f66-fc74e2e353a6"
 					(reference "C10")
 					(unit 1)
@@ -1904,7 +1904,7 @@
 			(uuid "ee05bf59-823c-4cee-ac62-7a945978aea0")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/6237e191-5cb9-46cd-8f66-fc74e2e353a6"
 					(reference "F6")
 					(unit 1)
@@ -1969,7 +1969,7 @@
 			(uuid "ccd66dae-471d-421e-95c8-816c5aa871e4")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/6237e191-5cb9-46cd-8f66-fc74e2e353a6"
 					(reference "#PWR015")
 					(unit 1)
@@ -2034,7 +2034,7 @@
 			(uuid "c9ccb3a3-1cd6-460e-a1ab-d140d251b3ae")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/6237e191-5cb9-46cd-8f66-fc74e2e353a6"
 					(reference "#PWR017")
 					(unit 1)
@@ -2099,7 +2099,7 @@
 			(uuid "d87dba82-044b-426e-9f65-d3afc707cdea")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/6237e191-5cb9-46cd-8f66-fc74e2e353a6"
 					(reference "#PWR019")
 					(unit 1)
@@ -2169,7 +2169,7 @@
 			(uuid "42015d09-131a-4cd5-9b61-71c3030dd371")
 		)
 		(instances
-			(project "Z-"
+			(project "-Z"
 				(path "/446ceff1-46b8-4829-b15a-92d0d6c980a6/6237e191-5cb9-46cd-8f66-fc74e2e353a6"
 					(reference "R65")
 					(unit 1)
